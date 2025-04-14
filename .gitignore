@@ -1,0 +1,15 @@
+# Ignorar arquivos do sistema operacional
+.DS_Store        # (para macOS)
+thumbs.db         # (para Windows)
+*.ini              # Arquivos inicialização
+
+# Ignorar arquivos de backup do editor
+*~                 # Arquivos temporários (geralmente criados ao editar)
+*.bak              # Arquivos de backup
+*.swp              # Arquivos temporários do vim (editor)
+
+# Ignorar pastas de compilação ou logs
+/node_modules/     # Pasta de dependências do node (se aplicável)
+*.log              # Arquivos de log
+*.tmp              # Arquivos temporários
+
